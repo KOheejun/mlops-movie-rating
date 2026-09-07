@@ -1,0 +1,19 @@
+# 데이터 수집 / 학습 / API 서빙(FastAPI, src/webapp.py)
+fastapi==0.128.0
+uvicorn==0.40.0
+fire==0.7.1
+icecream==2.1.9
+numpy==1.26.4
+pandas==2.3.3
+python-dotenv==1.2.1
+requests==2.32.5
+scikit-learn==1.8.0
+tqdm==4.67.1
+wandb==0.24.0
+
+# 모델 서빙 (serving/, BentoML) — 별도 폴더에서 pip install
+# bentoml
+# scikit-learn  (위에 포함됨)
+
+# 워크플로 자동화 (airflow/) — 공식 constraints 파일과 함께 별도 설치 권장
+# apache-airflow==2.x  (예: pip install "apache-airflow==2.9.3" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.9.3/constraints-3.11.txt")

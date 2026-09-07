@@ -1,0 +1,14 @@
+{
+  "model_name": "movie_rating_model",
+  "staging_tag": "movie_rating_model:5355zqx53kwl5yu6",
+  "prod_tag": "movie_rating_model:5355zqx53kwl5yu6",
+  "history": [
+    {
+      "tag": "movie_rating_model:5355zqx53kwl5yu6",
+      "stage": "staging",
+      "saved_at_utc": "2026-01-30T12:55:20Z",
+      "checkpoint_path": "/opt/project-mlops-ai22-team-2-1/mlops/src/utils/../../models/movie_predictor/E10_T260130090732.pkl"
+    }
+  ],
+  "prod_promoted_at_utc": "2026-01-30T12:57:09Z"
+}
